@@ -22,14 +22,22 @@ a,
 p {
     font-family: "Mulish", sans-serif;
 }
+p{
+    font-size: 16px;
+}
 
 /* -----common css end------ */
 
 /* -----nav css end------ */
 
+.nav-hero{
+    display: flex;
+    align-items: center;
+}
 .nav-title{
     display: flex;
     gap: 25px;
+    width: 50%;
     align-items: center;
 }
 .nav-title img{
@@ -37,19 +45,55 @@ p {
     width: 50px;
 }
 .description{
-    font-weight: 36px;
+    font-size: 36px;
 }
 .nav-title .wave{
-    font-weight: 36px;
     color: #FF5400;    
 }
 
+.nav-link{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link a{
+    font-size: 18px;
+    color: #424247;
+    text-decoration: none;
+}
+.home{
+    color: #FF5400 !important;
+}
 
 /* -----nav css end------ */
 
+/* -----babber css start------ */
 
-/* -----common css end------ */
-/* -----common css end------ */
+.banner{
+    position: relative;
+}
+.banner-title{
+    position: absolute;
+    
+}
+.banner-title h1{
+    font-size: 64px;
+}
+.input-feild input{
+    padding: 15px 20px;
+}
+.input-feild{
+    width: 800px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.arrow i{
+    position: absolute;
+    padding-top: 18px;
+    transform: translateX(-30px);
+}
+/* -----banner css end------ */
 
 
 /* -----common css end------ */
