@@ -1,0 +1,56 @@
+/* ------mulish font family form by google fobts----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* -----common css start----- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+h1,
+h2,
+h3,
+h5,
+a,
+p {
+    font-family: "Mulish", sans-serif;
+}
+
+/* -----common css end------ */
+
+/* -----nav css end------ */
+
+.nav-title{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.nav-title img{
+    height: 60px;
+    width: 50px;
+}
+.description{
+    font-weight: 36px;
+}
+.nav-title .wave{
+    font-weight: 36px;
+    color: #FF5400;    
+}
+
+
+/* -----nav css end------ */
+
+
+/* -----common css end------ */
+/* -----common css end------ */
+
+
+/* -----common css end------ */
+/* -----common css end------ */
