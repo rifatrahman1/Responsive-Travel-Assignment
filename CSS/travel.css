@@ -210,7 +210,7 @@ p {
 
 .destination-image {
     display: flex;
-    height: 100%;
+    height: 410px;
     width: 100%;
     gap: 30px;
 }
@@ -230,6 +230,8 @@ p {
 
 .mal img {
     width: 100%;
+    object-fit: cover;
+
 }
 
 .indo {
@@ -247,11 +249,13 @@ p {
 
 .indo img {
     width: 100%;
+    object-fit: cover;
 }
 
 .destination-image-1 {
     display: flex;
     gap: 30px;
+    height: 390px;
     width: 100%;
 }
 
@@ -267,8 +271,10 @@ p {
     transform: translateY(-200px);
 }
 .srilanka img {
+    object-fit: cover;
     width: 100%;
 }
+
 
 .north-america {
     width: 42%;
@@ -285,6 +291,7 @@ p {
 .north-america img {
     width: 100%;
     height: 360px;
+    object-fit: cover;
 }
 
 .kasmir {
@@ -301,8 +308,43 @@ p {
 .kasmir img {
     width: 100%;
     height: 360px;
+    object-fit: cover;
 }
 
+.destination-image-2 {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.bangladesh{
+    width: 42%;
+}
+.bangladesh img{
+    width: 100%;
+}
+.bangladesh h1{
+    position: relative;
+    color: #ffffff;
+    font-size: 35px;
+    width: 250px;
+    left: 210px;
+    transform: translateY(-226px);
+}
+.bandarban{
+    width: 58%;
+}
+.bandarban img{
+    width: 100%;
+    height: 386px;
+}
+.bandarban h1{
+    position: relative;
+    color: #ffffff;
+    font-size: 35px;
+    width: 250px;
+    left: 325px;
+    transform: translateY(-215px);
+}
 /* -----your destination end----- */
 
 /* -----main css end------ */
