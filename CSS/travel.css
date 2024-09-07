@@ -262,7 +262,8 @@ p {
 .srilanka {
     width: 33%;
 }
-.srilanka h1{
+
+.srilanka h1 {
     position: relative;
     color: #ffffff;
     font-size: 35px;
@@ -270,6 +271,7 @@ p {
     left: 160px;
     transform: translateY(-200px);
 }
+
 .srilanka img {
     object-fit: cover;
     width: 100%;
@@ -279,7 +281,8 @@ p {
 .north-america {
     width: 42%;
 }
-.north-america h1{
+
+.north-america h1 {
     position: relative;
     color: #ffffff;
     font-size: 35px;
@@ -297,7 +300,8 @@ p {
 .kasmir {
     width: 25%;
 }
-.kasmir h1{
+
+.kasmir h1 {
     position: relative;
     color: #ffffff;
     font-size: 35px;
@@ -305,6 +309,7 @@ p {
     left: 120px;
     transform: translateY(-210px);
 }
+
 .kasmir img {
     width: 100%;
     height: 360px;
@@ -316,13 +321,16 @@ p {
     gap: 30px;
     width: 100%;
 }
-.bangladesh{
+
+.bangladesh {
     width: 42%;
 }
-.bangladesh img{
+
+.bangladesh img {
     width: 100%;
 }
-.bangladesh h1{
+
+.bangladesh h1 {
     position: relative;
     color: #ffffff;
     font-size: 35px;
@@ -330,14 +338,17 @@ p {
     left: 210px;
     transform: translateY(-226px);
 }
-.bandarban{
+
+.bandarban {
     width: 58%;
 }
-.bandarban img{
+
+.bandarban img {
     width: 100%;
     height: 386px;
 }
-.bandarban h1{
+
+.bandarban h1 {
     position: relative;
     color: #ffffff;
     font-size: 35px;
@@ -345,6 +356,7 @@ p {
     left: 325px;
     transform: translateY(-215px);
 }
+
 /* -----your destination end----- */
 
 /* -----main css end------ */
@@ -447,6 +459,123 @@ p {
     }
 
     /* ----popular media end---- */
+
+
+    /* ----your destination media start---- */
+    .image-destination {
+        margin-top: 70px;
+    }
+
+    .destination-title {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .destination-image,
+    .destination-image-1,
+    .destination-image-2 {
+        gap: 0px;
+        flex-direction: column;
+    }
+    .destination-image{
+        height: 100%;
+    }
+    .destination-image-1{
+        height: 100%;
+    }
+
+    .mal {
+        width: 100%;
+    }
+
+    .mal img {
+        width: 100%;
+    }
+
+    .indo {
+        width: 100%;
+    }
+
+    .indo img {
+        width: 100%;
+    }
+
+    .srilanka {
+        width: 100%;
+    }
+
+    .srilanka img {
+        width: 100%;
+    }
+
+    .north-america {
+        width: 100%;
+    }
+
+    .north-america img {
+        width: 100%;
+    }
+
+    .kasmir {
+        width: 100%;
+    }
+
+    .kasmir img {
+        width: 100%;
+    }
+
+    .bangladesh {
+        width: 100%;
+    }
+
+    .bangladesh img {
+        width: 100%;
+    }
+
+    .bandarban {
+        width: 100%;
+    }
+
+    .bandarban img {
+        width: 100%;
+    }
+
+    .mal h1 {
+        left: 175px;
+        transform: translateY(-155px);
+    }
+    .indo h1 {
+        left: 175px;
+        transform: translateY(-155px);
+    }
+    .srilanka h1 {
+        left: 185px;
+        transform: translateY(-220px);
+    }
+    .north-america img{
+        border-radius: 20px;
+    }
+    .north-america h1 {
+        left: 135px;
+        transform: translateY(-210px);
+    }
+    .kasmir img{
+        border-radius: 20px;
+    }
+    .kasmir h1 {
+        left: 200px;
+        transform: translateY(-200px);
+    }
+    .bangladesh h1 {
+        left: 160px;
+        transform: translateY(-190px);
+    }
+    .bandarban h1 {
+        left: 155px;
+        transform: translateY(-210px);
+    }
+
+    /* ----your destinatin media end---- */
 
 }
 
