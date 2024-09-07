@@ -186,11 +186,24 @@ p {
     font-size: 18px;
     background-color: #FF5400;
 }
-.tour-image{
-    /* width: 40%; */
-}
+
 /* -----popular tours end------ */
 
+/* -----your destination start----- */
+.destination-title{
+    width: 703px;
+    justify-content: center;
+    text-align: center;
+}
+.destination-title h1{
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #131318;
+}.destination-title p{
+    font-size: 18px;
+}
+/* -----your destination end----- */
 
 /* -----main css end------ */
 
