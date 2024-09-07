@@ -190,19 +190,119 @@ p {
 /* -----popular tours end------ */
 
 /* -----your destination start----- */
-.destination-title{
+.destination-title {
     width: 703px;
-    justify-content: center;
+    margin: 80px 395px;
+    margin-top: 150px;
     text-align: center;
 }
-.destination-title h1{
-    justify-content: center;
+
+.destination-title h1 {
     font-size: 50px;
     font-weight: 900;
     color: #131318;
-}.destination-title p{
+}
+
+.destination-title p {
+    margin-top: 20px;
     font-size: 18px;
 }
+
+.destination-image {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+}
+
+.mal {
+    width: 50%;
+}
+
+.mal h1 {
+    position: relative;
+    color: #ffffff;
+    font-size: 35px;
+    width: 150px;
+    left: 280px;
+    transform: translateY(-215px);
+}
+
+.mal img {
+    width: 100%;
+}
+
+.indo {
+    width: 50%;
+}
+
+.indo h1 {
+    position: relative;
+    color: #ffffff;
+    font-size: 35px;
+    width: 180px;
+    left: 280px;
+    transform: translateY(-215px);
+}
+
+.indo img {
+    width: 100%;
+}
+
+.destination-image-1 {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.srilanka {
+    width: 33%;
+}
+.srilanka h1{
+    position: relative;
+    color: #ffffff;
+    font-size: 35px;
+    width: 180px;
+    left: 160px;
+    transform: translateY(-200px);
+}
+.srilanka img {
+    width: 100%;
+}
+
+.north-america {
+    width: 42%;
+}
+.north-america h1{
+    position: relative;
+    color: #ffffff;
+    font-size: 35px;
+    width: 250px;
+    left: 178px;
+    transform: translateY(-205px);
+}
+
+.north-america img {
+    width: 100%;
+    height: 360px;
+}
+
+.kasmir {
+    width: 25%;
+}
+.kasmir h1{
+    position: relative;
+    color: #ffffff;
+    font-size: 35px;
+    width: 180px;
+    left: 120px;
+    transform: translateY(-210px);
+}
+.kasmir img {
+    width: 100%;
+    height: 360px;
+}
+
 /* -----your destination end----- */
 
 /* -----main css end------ */
@@ -291,16 +391,19 @@ p {
     /* ----banner media end---- */
 
     /* ----popular tour media start---- */
-    .popular-tour{
+    .popular-tour {
         gap: 80px;
         flex-direction: column;
     }
-    .tour-description{
+
+    .tour-description {
         width: 100%;
     }
-    .tour-image img{
+
+    .tour-image img {
         width: 100%;
     }
+
     /* ----popular media end---- */
 
 }
